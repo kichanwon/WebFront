@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_표연습문제</title>
+</head>
+
+<style type="text/css">
+    .TB{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .table{
+        text-align: center;
+    }
+    .name{
+        background-color: aqua;
+        font-weight: bold;
+    }
+
+    .attribute{
+        background-color: red;
+        font-weight: bold;
+    }
+
+    .value{
+        background-color: orange;
+    }
+
+    .total{
+        background-color: yellow;
+    }
+
+</style>
+
+<body>
+    <table border="1" class="table">
+        <tr>
+            <td colspan="5" class="name">하수정 컬렉션</td>
+        </tr>
+        <tr>
+            <td rowspan="5" class="attribute">제품리스트</td>
+            <td class="attribute">코드</td>
+            <td class="attribute">분류</td>
+            <td class="attribute">가격</td>
+            <td class="attribute">구매가능개수</td>
+        </tr>
+        <tr>
+  
+            <td class="value">01-468</td>
+            <td class="value">봄</td>
+            <td class="value">200,000원</td>
+            <td class="value">1068</td>
+        </tr>
+        <tr>
+
+            <td class="value">01-223</td>
+            <td class="value">여름</td>
+            <td class="value">200,00원</td>
+            <td class="value">976</td>
+        </tr>
+        <tr>
+
+            <td class="value">01-626</td>
+            <td class="value">가을</td>
+            <td class="value">200,00원</td>
+            <td class="value">1205</td>
+        </tr>
+        <tr>
+
+            <td class="value">01-245</td>
+            <td class="value">겨울</td>
+            <td class="value">200,00원</td>
+            <td class="value">537</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="attribute">총합</td>
+            <td class="total">800,00원</td>
+            <td class="total">3786</td>
+        </tr>
+    </table>
+
+
+    <hr>
+
+    <table border="1" class="TB">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td colspan="2">5</td>
+
+
+            <td rowspan="2">6</td>
+        </tr>
+        <tr>
+            <td colspan="2">7</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+</body>
+</html>
