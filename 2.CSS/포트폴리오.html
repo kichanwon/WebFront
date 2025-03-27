@@ -11,11 +11,12 @@
 
   
   <body>
+    
     <header>
       <nav class="navbar">
         <div class="navbar__brand">
           <img
-            src="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+            src="https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png"
             alt="logo"
             class="brand__logo"
           />
@@ -24,45 +25,41 @@
         <div class="navbar__nav__items">
           <div class="nav__item">
             <div class="dropdown__container">
-              <i class="fas fa-globe"></i>
               <select
                 name="languages"
                 id="languagesSelect"
                 class="language__drop__down"
               >
-                <option value="english" selected style="color: white;">한국어</option>
+                <option value="korean" selected style="color: white;">한국어</option>
               </select>
             </div>
           </div>
 
           <div class="nav__item">
-            <button class="signin__button">Sign in</button>
+            <button class="signin__button">로그인</button>
           </div>
         </div>
       </nav>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="hero__bg__image__container">
+      <section class="main">
+        <div class="main__bg__image__container">
           <img
             src="https://assets.nflxext.com/ffe/siteui/vlv3/f6e7f6df-6973-46ef-b98f-12560d2b3c69/web_tall_panel/KR-ko-20250317-TRIFECTA-perspective_16ae8244-89f9-451b-b8f7-b8baca320e1b_large.jpg"
-            alt="BG hero image"
-            class="hero__bg__image"
+            alt="BG main image"
+            class="main__bg__image"
           />
         </div>
-        <div class="hero__bg__overlay"></div>
+        <div class="main__bg__overlay"></div>
 
-        <div class="hero__card">
-          <h1 class="hero__title">
+        <div class="main__card">
+          <h1 class="main__title">
             영화,시리즈 등을<br />
             무제한으로
           </h1>
-          <p class="hero__subtitle">
+          <p class="main__subtitle">
             5,500원으로 시작하세요. 멤버십은 언제든지<br>
             해지가능합니다.
           </p>
-          <p class="hero__description">
+          <p class="main__description">
             시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.
           </p>
 
@@ -77,87 +74,202 @@
           </div>
         </div>
       </section>
+    </header>
 
 
-      <section class="features__container">
-        <div class="feature">
-          <div class="feature__details">
-            <h3 class="feature__title"><title></title></h3>
-            <h5 class="feature__sub__title">
-              subtitle
-            </h5>
+    <main>
+      <section>
+        <div class="main__container">
+              <div class="main__ad">
+                <div class="main__ad__desription">
+                  <h1>5,500원이면 만날 수 있는 넷플릭스.</h1>
+                  <p>몇 개의 중간 광고와 함께 요금도 절약하고 넷플릭스도 즐겨보세요.</p>
+                </div>
+                <a class="main__ad__detail" href="https://www.netflix.com/kr/ads-plan">
+                  자세히알아보기
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="feature__image__container">
-            <img
-              src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABak_LMOLSXUEnf_X4o0Mc6dRTEJsY9MQ1l9q_9V67fKFPngp6iw5yAk-jABwid66ix36PEu8ujgG-NCBWyN9_-b9aSgmlOwoZ_CU9wYcmFeEw6NZB5sLnz7YFkMqbezkm56Hnm2wZUg7aEkJAbg0A-z7T5xefp0L3ozXTsH0JMQVb7L2PhyixriWiJqCV7cZk7fjnbqLgFdKUNTV.webp?r=153"
-              alt="Feature image"
-              class="feature__image"
-            />
+        </div>
+      </section>
+
+      <section>
+        <div class="main__heading">
+          지금 뜨는 컨텐츠
+        </div>
+        <div class="contents__container">
+          <div class="contents__img">
+            <h1 class="contents__img__number">1</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABak_LMOLSXUEnf_X4o0Mc6dRTEJsY9MQ1l9q_9V67fKFPngp6iw5yAk-jABwid66ix36PEu8ujgG-NCBWyN9_-b9aSgmlOwoZ_CU9wYcmFeEw6NZB5sLnz7YFkMqbezkm56Hnm2wZUg7aEkJAbg0A-z7T5xefp0L3ozXTsH0JMQVb7L2PhyixriWiJqCV7cZk7fjnbqLgFdKUNTV.webp?r=153">
+          </div>
+          
+          <div class="contents__img">
+            <h1 class="contents__img__number">2</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABdwtyTGS1pbBXbbcC96rWXZXHgHdFBZwb_FEBhe2IY8PfnGsABKlfaTxNLLUYSTFVuUpJnc5zqaBoD5I9D47KooIWbynZSJE97b7OZM7sOBmhm-ld2NWBuDIXayqNOsq5dgDqPgF-HviF0ce2S08jsbzj95ZAo-D7pEADiOYj6prfI3pxzulAMFqnxWXYXVim8eCQrRUXy-C8k2Z.webp?r=c39">
+          </div>
+          
+          <div class="contents__img">
+            <h1 class="contents__img__number">3</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABRxTtcDcBQl1HXwwCUSweXckNnaXYPBG5ghzpizuzDq0hK2Ku1dzbVJkkQ3MzUAJBWp0Z4950rwhOXxDIdgv1q95ltn0yBmy21fBimvYXIM4vqugY2iynOwBhUhCTPj3DV17EHQpftvB59yuqV_3uMPmfZ-ZgbclPN65cqcVamZyRxvmM_vvigkhAQNIuSTNhDa2FAMzO9tg9oSN.webp?r=08e">
+          </div>
+                    
+          <div class="contents__img">
+            <h1 class="contents__img__number">4</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABTDI5OpjIDfTzcyYiS65qaagIU2Vq6UEf4NonNHftLncaYDDIwumZtgcH7CdyHxiRtR4jWdf6DpBxx19TuImYafQ-m0DgZibDbUCanGElYzgOKzAgv80Y92GlbfhUEYdhwtIpUznvMOeTy5PBloK.webp?r=393">
+          </div>
+                    
+          <div class="contents__img">
+            <h1 class="contents__img__number">5</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABYy_pTJ7jmXtAevkiJf3Td5yEyXPmhyiDdFxp7tmT9CZW0p5zfj2bP_QSfST37P9lkzadG1c6J3jH3kfiU1jWgN8rwked2Tzri3SJlD9Hhyd1Ul1a8E4afHDVoL8ngsGERePQha4x2rdtod6_bAMHERtTjlGCCGIqU3B5UfnIPrLTaRXQwmakO_0q_3K1DHrMt4NfjOywks3odOb.webp?r=314">
+          </div>
+                    
+          <div class="contents__img">
+            <h1 class="contents__img__number">6</h1>
+            <img src="https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABRQNmBhc7c7SHOQiQKzKh3nlFDXJTljn9qlItMhqVMyahtKxt-J1McacdCFwCfYchAVvYv4snxwH5LTGYsCL8bcf0Vm_NBuj1rULHQyPARDKVmfhf6HAljtx6QZb0bQlWFyf4Qq43midTCYz_oRS.webp?r=7f5">
+          </div>
+          
+        </div>
+      </section>
+
+      <section>
+        <div class="main__heading">
+          나의 니즈에 꼭 맞는 멤버쉽
+        </div>
+        <div class="membership__container">
+
+          <div class="membership__contents">
+              <p class="membership__contents__main">
+                <h1>광고형 스탠다드</h1>
+                1080p
+                <p class="membership__contents__details">
+                  좋은 화질<br>
+                  생각보다 적은 수의 광고
+                </p><br><br>
+                월 5,500원
+              </p>
+          </div>
+          
+          <div class="membership__contents">
+              <p class="membership__contents__main">
+                <h1>스탠다드</h1>
+                1080p
+                <p class="membership__contents__details">
+                  좋은 화질<br>
+                  광고 없음
+                </p><br><br>
+                월 13,500원
+              </p>
+          </div>
+          
+          <div class="membership__contents">
+              <p class="membership__contents__main">
+                <h1>프리미엄</h1>
+                4K + HDR
+                <p class="membership__contents__details">
+                  가장 좋은 화질<br>
+                  이머시브 사운드(공간 음향)<br>
+                  광고 없음
+                </p><br>
+                월 17,000원
+              </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="main__heading">
+          가입해야 하는 또 다른 이유
+        </div>
+        <div class="reason__container">
+          <div class="reason__contents">
+            <h1>TV로 즐기세요</h1>
+            <p>스마트 TV, PlayStation, Xbox, Chromecast, Apple TV, 블루레이 플레이어 등 다양한 디바이스에서 시청하세요.            </p>
+          </div>
+
+          <div class="reason__contents">
+            <h1>즐겨 보는 콘텐츠를 저장해 오프라인으로 시청하세요</h1>
+            <p>간편하게 저장하고 빈틈없이 즐겨보세요.</p>
+          </div>
+
+          <div class="reason__contents">
+            <h1>다양한 디바이스로 시청하세요</h1>
+            <p>각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, TV에서 무제한으로 스트리밍하세요.</p>
+          </div>
+
+          <div class="reason__contents">
+            <h1>어린이 전용 프로필을 만들어 보세요</h1>
+            <p>자기만의 공간에서 좋아하는 캐릭터와 즐기는 신나는 모험. 자녀에게 이 특별한 경험을 선물하세요. 넷플릭스 회원이라면 무료입니다.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="main__heading">자주 묻는 질문</div>
+        <div class="FAQ__list__container">
+          <div class="FAQ__list">
+              <button class="FAQ__title">
+                넷플릭스에서 어떤 컨텐츠를 시청할 수 있나요?
+              </button>
+              <button class="FAQ__title">
+                넷플릭스란 뭔가요?
+              </button>
+              <button class="FAQ__title">
+                요금은 얼마인가요?
+              </button>
+              <button class="FAQ__title">
+                어디에서 시청할 수 있나요?
+              </button>
+              <button class="FAQ__title">
+                멤버십을 해지하려면 어떻게 하나요?
+              </button>
+              <button class="FAQ__title">
+                아이들이 넷플릭스를 봐도 좋을까요?
+              </button>
+            </div>
+          </div>
+          <div class="FAQ__get__started__email">
+            <h3>
+              시청할 준비가 되셨나요? 멤버쉽을 등록하거나 재시작하려면 이메일 주소를<br>
+              입력하세요.
+            </h3>
+            <div class="email__form__container">
+              <div class="form__container">
+                <input type="email" class="email__input" placeholder=" " />
+                <label class="email__label">이메일 주소</label>
+              </div>
+              <button class="primary__button">
+                시작하기
+              </button>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="FAQ__list__container">
-        <h1 class="FAQ__heading">자주 묻는 질문</h1>
-        <div class="FAQ__list">
-            <button class="FAQ__title">
-              넷플릭스에서 어떤 컨텐츠를 시청할 수 있나요?
-            </button>
-            <button class="FAQ__title">
-              넷플릭스란 뭔가요?
-            </button>
-            <button class="FAQ__title">
-              요금은 얼마인가요?
-            </button>
-            <button class="FAQ__title">
-              어디에서 시청할 수 있나요?
-            </button>
-            <button class="FAQ__title">
-              멤버십을 해지하려면 어떻게 하나요?
-            </button>
-            <button class="FAQ__title">
-              아이들이 넷플릭스를 봐도 좋을까요?
-            </button>
-          </div>
-        </div>
-        <div class="FAQ__get__started__email">
-          <h3>
-            시청할 준비가 되셨나요? 멤버쉽을 등록하거나 재시작하려면 이메일 주소를<br>
-            입력하세요.
-          </h3>
-          <div class="email__form__container">
-            <div class="form__container">
-              <input type="email" class="email__input" placeholder=" " />
-              <label class="email__label">이메일 주소</label>
-            </div>
-            <button class="primary__button">
-              시작하기
-            </button>
-          </div>
-        </div>
-      </div>
-      
       <div class="footer__row__1">
         <h4>질문이 있으신가요? 문의 전화:<span onclick="alert('전화연결')">00-308-321-0161 (수신자 부담)</span></h4>
       </div>
       <div class="footer__row__2">
-        <a>자주 묻는 질문</a>
-        <a>고객 센터</a>
-        <a>계정</a>
-        <a>미디어 센터</a>
-        <a>투자 정보(IR)</a>
-        <a>입사 정보</a>
-        <a>넷플릭스 지원 디바이스</a>
-        <a>이용 약관</a>
-        <a>개인정보 처리방침</a>
-        <a>쿠키 설정</a>
-        <a>회사 정보</a>
-        <a>문의하기</a>
-        <a>속도 테스트</a>
-        <a>법적 고지</a>
-        <a>오직 넷플릭스에서</a>
+        <a href="#">자주 묻는 질문</a>
+        <a href="#">고객 센터</a>
+        <a href="#">계정</a>
+        <a href="#">미디어 센터</a>
+        <a href="#">투자 정보(IR)</a>
+        <a href="#">입사 정보</a>
+        <a href="#">넷플릭스 지원 디바이스</a>
+        <a href="#">이용 약관</a>
+        <a href="#">개인정보 처리방침</a>
+        <a href="#">쿠키 설정</a>
+        <a href="#">회사 정보</a>
+        <a href="#">문의하기</a>
+        <a href="#">속도 테스트</a>
+        <a href="#">법적 고지</a>
+        <a href="#">오직 넷플릭스에서</a>
+        <a></a>
       </div>
       <div class="footer__row__3">
         <div class="dropdown__container">
