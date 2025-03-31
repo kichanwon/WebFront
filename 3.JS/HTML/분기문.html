@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>08_분기문</title>
+</head>
+
+<body>
+  <h1>UP & DOWN GAME</h1>
+
+  <pre>
+    1부터 200 사이 난수를 몇 회 만에 맞추는지 카운트하는 게임
+
+    //맞춰야되는 난수(1~200) 발생
+    const answer = Math.floor( Math.random() * 200 ) + 1;
+
+    - Math.random() : 난수 발생
+    - Math.floor()  : 내림 처리해서 정수로 변환
+    - while()
+    - break;
+    - continue;
+    - if()
+    - count
+  </pre>
+
+  <button onclick="startGame()">게임 시작</button>
+
+  <script src="../js/분기문.js"></script>
+</body>
+
+</html>

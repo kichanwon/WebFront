@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입출금하기</title>
+
+    <link rel="stylesheet" href="../css/04_입출금하기.css">
+</head>
+<body>
+  <div class="account">
+    <div class="row">
+      <h1>잔액 : <span id="output"></span> 원</h1>
+    </div>
+    <div class="row input-row">
+      <label for="amount">금액 : </label>
+      <input type="text" id="amount">
+      <span>원</span>
+    </div>
+
+    <div class="row btn-row">
+      <button class="deposit-btn" onclick="deposit()">입금</button>
+      <button class="withdrawal-btn" onclick="withdrawal()">출금</button>
+    </div>
+  </div>
+
+
+  <script src="../js/04_입출금하기.js"></script>
+</body>
+</html>
