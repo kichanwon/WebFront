@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메뉴판관리</title>
+
+  <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body>
+  
+  <main>
+    <div class="res-name-container">
+      <p>
+        <span>식당명</span>
+        <span class="explanation">(클릭 시 입력창 활성화)</span>
+        <span class="explanation">(포커스 해제 시(blur) 원래대로 돌아옴)</span>
+      </p> 
+      : 
+      <span id="resName">식당명을 입력하세요</span> 
+      <input type="text" id="resNameInput" class="res-name-hidden">
+    </div>
+
+    <ul class="menu-container">
+      <li class="menu">
+        <span class="menu-name">카레 돈까스</span>
+        <span class="menu-price">10000원</span>
+      </li>
+      <li class="menu">
+        <span class="menu-name">돈까스</span>
+        <span class="menu-price">9000원</span>
+      </li>
+    </ul>
+
+    <div class="btn-container normal-container">
+      <button id="updateBtn">수정</button>
+    </div>
+    <div class="btn-container edit-container b-hidden">
+      <button id="addMenu">추가</button>
+      <button id="deleteMenu">삭제</button>
+      <button id="exitBtn">종료</button>
+    </div>
+  </main>
+
+
+  <pre>
+    힌트.
+
+    1. input 태그가 focus를 잃었을 때 (blur) : 요소.addEventListener("blur", () => {})
+
+    2. classList.toggle() : 지정된 클래스가 요소에 존재하면 제거하고, 존재하지 않으면 추가하는 방식
+  </pre>
+
+
+
+
+  <script src="../js/menu.js"></script>
+</body>
+</html>
